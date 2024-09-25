@@ -50,7 +50,7 @@ class Juice:
         return self.name + ' (' + str(self.capacity) + 'L)'
 
     # Overloaded '+' operator method to combine two Juice objects
-    def __add__(self, newJuice):
+    def __add__(self, new_juice):
         """
         Overloads the '+' operator to combine two Juice objects.
 
@@ -59,14 +59,14 @@ class Juice:
         with the combined name and capacity.
 
         Args:
-            newJuice (Juice): Another Juice object to combine with.
+            new_juice (Juice): Another Juice object to combine with.
 
         Returns:
             Juice: A new Juice object with the combined name and capacity.
         """
-        combined_name = self.name + "&" + str(newJuice.name)
+        combined_name = self.name + "&" + str(new_juice.name)
         # Adds the capacities of both juices
-        combined_capacity = self.capacity + newJuice.capacity
+        combined_capacity = self.capacity + new_juice.capacity
         # Creates and returns a new Juice object representing the combination
         return Juice(combined_name, combined_capacity)
 
