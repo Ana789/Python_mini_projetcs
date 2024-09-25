@@ -1,5 +1,6 @@
 """
-This module checks if a user-inputted phone number follows a specific format using regular expressions.
+This module checks if a user-inputted phone number
+follows a specific format using regular expressions.
 
 The format being validated is a phone number that:
 - Starts with '07'.
@@ -22,7 +23,6 @@ Pattern breakdown:
 
 import re  # Import the 're' module for regular expression operations
 
-# Your code starts here
 ui = input()  # Take user input and store it in the variable 'ui'
 
 # Define a regular expression pattern 'h'
