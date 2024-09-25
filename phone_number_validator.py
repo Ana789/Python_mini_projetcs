@@ -30,10 +30,10 @@ ui = input()  # Take user input and store it in the variable 'ui'
 # 07        - Matches the exact characters '07'
 # \d{8}     - Matches exactly eight digits (0-9)
 # $         - Asserts the end of the string
-pattern = r"^07\d{8}$"
+PATTERN = r"^07\d{8}$"
 
 # Use 're.match()' to check if the input 'ui' matches the pattern 'h'
-if re.match(pattern, ui):
+if re.match(PATTERN, ui):
     print("Valid")  # Print "Valid" if the input matches the pattern
 else:
     print("Invalid")  # Print "Invalid" if the input does not match the pattern
