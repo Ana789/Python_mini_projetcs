@@ -37,17 +37,17 @@ def conv(celsius_temp):
         The corresponding temperature in Fahrenheit.
     """
 
-    fahrenheit = (1.8 * celsius_temp) + 32
+    fahrenheit_temp = (1.8 * celsius_temp) + 32
 
     # Print the calculated Fahrenheit value.
-    print(fahrenheit)
+    print(fahrenheit_temp)
 
 
 # Call the `conv` function with the user-provided Celsius value to convert and print it.
 conv(celsius_input)
 
 # Alternatively, directly calculate the Fahrenheit value without using the function.
-fahrenheit = (1.8 * celsius_input) + 32
+fahrenheit_result = (1.8 * celsius_input) + 32
 
 # Print the Fahrenheit value calculated outside the function.
-print(fahrenheit)
+print(fahrenheit_result)
