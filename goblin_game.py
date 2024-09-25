@@ -1,12 +1,14 @@
 """
-This module defines a `Juice` class that represents different types of juice, allowing for the creation of juice objects with specific names and capacities.
+This module defines a `Juice` class that represents different types of juice,
+allowing for the creation of juice objects with specific names and capacities.
 
 The class provides functionality for:
 - Displaying juice objects in a user-friendly format.
 - Combining two juice objects into a single one using the overloaded '+' operator.
 
 Example usage:
-- Create juice objects and combine them to get a new juice object with the combined name and capacity.
+- Create juice objects and combine them to get
+a new juice object with the combined name and capacity.
 """
 class Juice:
     """
@@ -17,7 +19,8 @@ class Juice:
         capacity (float): The capacity of the juice in liters (e.g., 1.5L).
 
     Methods:
-        __str__(): Returns a string representation of the juice object, showing its name and capacity.
+        __str__(): Returns a string representation of the juice object,
+                showing its name and capacity.
         __add__(other): Overloads the '+' operator to combine two Juice objects into one.
     """
 
@@ -37,7 +40,8 @@ class Juice:
         """
         Returns a string representation of the Juice object.
 
-        The string is formatted as "JuiceName (CapacityL)", where JuiceName is the name of the juice
+        The string is formatted as "JuiceName (CapacityL)",
+        where JuiceName is the name of the juice
         and Capacity is its capacity in liters.
 
         Returns:
@@ -50,7 +54,8 @@ class Juice:
         """
         Overloads the '+' operator to combine two Juice objects.
 
-        This method combines the names and capacities of two Juice objects and returns a new Juice object
+        This method combines the names and capacities
+        of two Juice objects and returns a new Juice object
         with the combined name and capacity.
 
         Args:
